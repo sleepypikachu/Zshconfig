@@ -51,6 +51,8 @@ autoload -U compinit promptinit
 compinit
 promptinit
 
+# Run rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/core_perl:/home/roger/bin/scala/bin
