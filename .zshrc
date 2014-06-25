@@ -10,7 +10,7 @@ ZSH_THEME="roger"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias e="emacs -nw"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
